@@ -1,0 +1,18 @@
+> npx tsc (to compile typescript files)
+tsconfig.json (ts compiler can be conigured in this file)
+
+npm install -g typescript (to install typescript compiler globally)
+
+typescript can infer the types in two ways:
+
+
+two ways that ts will infer types:
+// Explicit -> when you declare types
+// Implicit -> when ts automatically determines the type
+
+unknown type is for unknown types
+any is for disabling type checking on that variable
+
+unknown is safer than any
+
+readonly can be used outside classes (i did not know that)
